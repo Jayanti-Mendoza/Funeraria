@@ -1,0 +1,143 @@
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 60px 0; 
+    color: #333333;
+}
+
+.login-cajita {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    padding: 40px 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.login-cajita h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 22px;
+    color: #555555;
+    text-align: center;
+    font-weight: normal;
+}
+
+.login-cajita label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.login-cajita input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+.login-cajita button {
+    width: 100%;
+    background-color: #7f8c8d; 
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.login-cajita button:hover {
+    background-color: #636e72;
+}
+
+.barrita {
+    background-color: #727e92; 
+    width: 100%;
+    height: 70px;  
+}
+
+.letrastit {
+    text-align: center;
+    font-size: 50px;
+    color: #173765;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.barrita2 {
+    background-color: #727e92;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.letraspi{
+    text-align: center;
+    font-size: 30px;
+    color: #051d3f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.textopi {
+    color: #727e92;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.boton-menu {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 25px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.boton-menu:hover {
+    background-color: #5a6474;
+}
+
+.contenedor-dashboard {
+    width: 700px;              
+    margin: 0 auto;            
+    background-color: #ffffff;
+    padding: 40px;             
+    border-radius: 8px;        
+}
+
+.contenedor-dashboard h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0; 
+    padding-bottom: 5px;
+}
+
+.campo-formulario {
+    margin-bottom: 15px;       
+}
+
+.campo-formulario label {
+    display: inline-block;     
+    width: 250px;              
+    color: #333333;
+}
+
+.campo-formulario input {
+    display: inline-block;     
+    width: 350px;              
+    padding: 8px;
+    border: 1px solid #cccccc; 
+    background-color: #fafafa; 
+}
