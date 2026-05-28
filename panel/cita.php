@@ -48,7 +48,7 @@
             
             <div class="campo-formulario">
              <label>Selecciona la Sala:</label>
-             <select name="sala_nombre" required>
+             <select name="id_sala" required>
              <option value="">-- Seleccione una sala --</option>
              <option value="1">Sala Magna</option>
              <option value="2">Capilla A</option>
@@ -75,7 +75,7 @@
             
             <div class="campo-formulario">
                 <label></label> 
-                <button type="submit" style="background-color: #7f8c8d; color: white; padding: 12px 25px; border: none; display: inline-block;">Guardar Servicio Completo</button>
+                <button type="submit" class="boton-servicio">Guardar Servicio Completo</button>
             </div>
 
         </form>

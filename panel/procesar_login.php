@@ -1,7 +1,6 @@
 <?php
 require "conexion.php";
 
-//Datos del formulario HTML 
 $usuario  = trim($_POST['usuario']);
 $password = $_POST['password'];
 
@@ -18,13 +17,11 @@ if ($stmt) {
 
     //Verificar si el usuario y contraseña son correctos
     if(mysqli_num_rows($resultado) > 0){
-        //Guarda los datos de la fila para poder usar, por ejemplo, el nombre real
-        $fila = mysqli_fetch_assoc($resultado);
+                $fila = mysqli_fetch_assoc($resultado);
         session_start();
         $_SESSION["autentificado"] = "SI";
-        //Guarda el 'nombre_completo' real de la base de datos para tu Bienvenida.php
         $_SESSION["nombre_usuario"] = $fila['nombre_completo']; 
-        $_SESSION["rol"] = $fila['rol']; // Por si llegas a necesitar bloquear páginas según el rol
+        $_SESSION["rol"] = $fila['rol'];
         header("Location: bienvenida.php");
         exit();
     }
